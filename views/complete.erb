@@ -65,8 +65,7 @@
             </tr>
             <tr>
                 <th class>内容</th>
-                <% name =params['content'] %>
-                <%= 'content'.gsub(/\r\n|\r|\n/, "<br>") %>
+                <% name =params['content'].gsub(/\r\n|\r|\n/, "<br>") %>
                 <td><%= name %></td>
             </tr>
         </table>    
